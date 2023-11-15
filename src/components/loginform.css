@@ -1,0 +1,87 @@
+   *{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+ }
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover{
+    background-color:white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.alt-login{
+    width: 80%;
+    height:3em;
+    display: flex;
+    justify-content: space-around;
+}
+.alt-login div{
+    width: 40%;
+    height: 90%;
+    border-radius: 2em;
+    background-color: violet;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google{
+    background-image: url("../components/icons8-google-48.png");
+}
+.facebook{
+
+    background-image: url("../components/icons8-facebook-50.png");
+}
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.60em;
+    text-align: center;
+    padding: 2em;
+}
+input:focus{
+    outline-color: rgb(32, 177, 255);
+}
+.login-btn{
+width:40%;
+height:3em;
+background-color: rgb(32, 177, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+border-radius: 0.25em;
+cursor: pointer;
+}
+.login-btn:hover{
+    transform: scale(1.1);
+}
+.text{
+    position: relative;
+    bottom: -2em;
+    background-color: rgba(230, 171, 43, 0.973);
+    padding: 0.2em;
+    border-radius: 4rem;
+    cursor:pointer;
+    width: 40% 40%;
+    height: 30px;
+}
+
+
